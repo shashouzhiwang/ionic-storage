@@ -232,6 +232,7 @@ export function getDefaultConfig() {
 /** @hidden */
 export interface StorageConfig {
   name?: string;
+  dbKey?: string;
   storeName?: string;
   driverOrder?: string[];
 };
